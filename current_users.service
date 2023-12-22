@@ -1,0 +1,6 @@
+[Unit]
+Description=Get current users
+
+[Service]
+Type=simple
+ExecStart=/home/younes/desktop/service_current_users/current_users-script.sh

@@ -1,0 +1,10 @@
+[Unit]
+Description=Run Get Current Users Service every minute
+
+[Timer]
+OnBootSec=1min
+OnUnitActiveSec=1min
+Unit=current_users.service
+
+[Install]
+WantedBy=timers.target
