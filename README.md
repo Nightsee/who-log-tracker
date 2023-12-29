@@ -6,7 +6,9 @@ The purpose of this script is to log information about currently logged-in users
 
 ### How To Use:
 1- copy the "current_users.service" and "current_users.timer" to "/etc/systemd/system" directory.
+###
 2- reload the systemd daemon, using this command : "sudo systemctl daemon-reload"
+###
 3- start the .timer : "sudo systemctl start current_users.timer"
 && wait a minute .
 
