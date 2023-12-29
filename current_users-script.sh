@@ -29,6 +29,3 @@ else
         done <<< "$who_output"
 fi
 
-#echo $who_output
-
-#printf "%s\n" "$who_output"
