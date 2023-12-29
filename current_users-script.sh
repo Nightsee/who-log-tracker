@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-log_file="/home/younes/desktop/service_current_users/current_users_log.txt"
+log_file="/<your own path>/current_users_log.txt"
 who_output="$(who)"
 current_date_time=$(date +"started loggin from:  %Y-%m-%d %H:%M:%S")
 username=$(echo $who_output | cut -d' ' -f 1)
